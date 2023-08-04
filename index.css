@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #00123e;
+}
+.particles-js {
+  height: 100vh;
+  background-color: #00123e;
+}
+.container {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+}
+
+h1 {
+  position: relative;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffff;
+  margin-bottom: 20px;
+}
+main,header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    flex-direction: column;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+.btn-search{
+    margin: 10px;
+    padding: 10px;
+    background-color: #4f78df;
+    color: #ffff;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-search:hover{
+    background-color: #86a0e3;
+}
